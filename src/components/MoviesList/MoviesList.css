@@ -1,0 +1,26 @@
+.movie__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px 35px;
+  padding: 20px 30px;
+}
+
+.movie__list-alert{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+@media (max-width: 1010px) {
+  .movie__list {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .movie__list {
+    padding: 20px  5px 20px 5px;
+  }
+}
